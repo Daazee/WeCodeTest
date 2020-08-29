@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Assignment</title>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+    div#templateInfo{
+        width: 100%;
+    height: 41px;
+    background: url(/preview/shared/images/pattern-fixed.jpg);
+    background-repeat: repeat-x;
+    background-position: left center;
+    position: fixed;
+    z-index: 999;
+    }
+
+
+    div#templateInfo div h2 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 41px;
+    line-height: 41px;
+    }
+
+    div#templateInfo div h2 a {
+    text-decoration: none;
+    font-family: Times New Roman;
+    font-size: 18px;
+    color: #4e6779;
+    text-transform: uppercase;
+    display: block;
+    background: url(/preview/shared/images/logo-2.png);
+    background-repeat: no-repeat;
+    background-position: -301px 15px;
+    width: 251px;
+    text-decoration: none;
+    height: 41px;
+    }
+
+    ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+div#templateInfo div ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: 41px;
+    line-height: 41px;
+}
+#clearance {
+    height: 41px;
+}
+
+body #page {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: auto;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+#header div {
+    margin: 0 auto;
+    max-width: 940px;
+    min-height: 227px;
+    padding: 0 10px;
+}
+#header span#mobile-navigation, #header span#mobile-submenu, #header div ul li ul {
+    display: none;
+}
+
+#body {
+    background: url(../images/bg-home.png) no-repeat center top;
+    border-top: 2px solid #252525;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#header div a.logo {
+    display: block;
+    float: left;
+    height: 106px;
+    margin: 44px 0 0;
+    padding: 0;
+    width: 320px;
+}
+
+#header div ul {
+    display: block;
+    float: right;
+    list-style: none outside none;
+    margin: 0 auto;
+    max-width: 501px;
+    padding: 102px 0 20px;
+    text-align: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#header div ul li {
+    display: inline-block;
+    *float: left;
+    margin: 0 0 0 37px;
+    padding: 0;
+    width: auto;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#body {
+    background: url(../images/bg-home.png) no-repeat center top;
+    border-top: 2px solid #252525;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#body.home div {
+    background: none;
+    margin: 0;
+    max-width: none;
+    padding: 0 0 54px;
+    width: 100%;
+}
+#body.home div.header div h1 {
+    background: none;
+    color: #000000;
+    display: block;
+    font-family: 'Arial Black';
+    font-size: 110px;
+    font-weight: normal;
+    line-height: 96px;
+    margin: 0 auto 32px;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 89.5833%;
+}
+
+#body div h1 {
+    background: url(../images/bg-border2.gif) no-repeat center bottom;
+    color: #FC416F;
+    font-family: 'Arial Black';
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#body.home div.header div span {
+    display: block;
+    margin: 0 auto 52px;
+    max-width: 350px;
+    overflow: hidden;
+    padding: 0;
+    width: 37.4583%;
+}
+
+#body.home div.header div span a.email {
+    border: 5px solid #000000;
+    color: #000000;
+    display: block;
+    float: left;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    height: 47px;
+    line-height: 47px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 63.142857142857%;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+#body.home div.header div span a.signup {
+    border: 5px solid #000000;
+    border-left: none;
+    color: #000000;
+    display: block;
+    float: left;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    height: 47px;
+    line-height: 47px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 32.571428571429%;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#header div ul li.selected a, #header div ul li.selected a:hover {
+    color: #fb416f;
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="content">
+
+            <div id="templateInfo">
+                <div>
+                    <h2><a target="_blank" href="/">&nbsp;<!-- FREE WEBSITE TEMPLATES --></a></h2>
+                        <ul class="navigation">
+                            <li class="edit"><a rel="nofollow" href="/use/running/" data-ga-event="click" data-ga-category="Previews Top Bar" data-ga-action="Ad Click" data-ga-label="Running Website Template">Edit</a></li>
+                            <li class="download"><a href="/download/running/" data-ga-event="click" data-ga-category="Previews Top Bar" data-ga-action="Download Click" data-ga-label="Running Website Template">Download</a></li>     
+                            <li class="discuss"><a href="/discuss/running/" data-ga-event="click" data-ga-category="Previews Top Bar" data-ga-action="Discuss Click" data-ga-label="Running Website Template">Discuss</a></li>     		     
+                        </ul>
+                </div>
+            </div>
+            <div id="clearance">&nbsp;</div>
+
+
+            <div id="page">
+                <div id="header">
+                    <div id="navigation">
+                        <span id="mobile-navigation">&nbsp;</span>
+                        <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+                        <ul id="menu">
+                            <li class="selected">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="running.html">Running</a>
+                                <ul>
+                                    <li>
+                                        <a href="runningsinglepost.html">Running single post</a>
+                                    </li>
+                                </ul>
+                            <span class="mobile-submenu" onclick="submenu(2)"></span></li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                                <ul>
+                                    <li>
+                                        <a href="blogsinglepost.html">blog single post</a>
+                                    </li>
+                                </ul>
+                            <span class="mobile-submenu" onclick="submenu(4)"></span></li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="body" class="home">
+                    <div class="header">
+                        <div>
+                            <h1>RUN<br>THE STREETS OF QUEENS</h1>
+                            <span><a href="contact.html" class="email">Enter Email</a><a href="contact.html" class="signup">Sign Up</a></span>
+                            <img src="images/runner.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div>
+                            <h1>WINNING</h1>
+                            <p>What’s more, they’re absolutely free! You can do a lot with them. You can modify them.</p>
+                            <a href="blog.html" class="more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div>
+                        <div class="connect">
+                            <a href="http://freewebsitetemplates.com/go/twitter/" class="twitter">twitter</a>
+                            <a href="http://freewebsitetemplates.com/go/facebook/" class="facebook">facebook</a>
+                            <a href="http://freewebsitetemplates.com/go/googleplus/" class="googleplus">googleplus</a>
+                            <a href="http://pinterest.com/fwtemplates/" class="pinterest">pinterest</a>
+                        </div>
+                        <p>© 2023 by RNRNR. All rights reserved.</p>
+                    </div>
+                    <div style="text-align: center;" id="wix">
+                    
+                    </div>
+                    </div><!-- end of templatePreview--><script>
+        
+        
+        jQuery.extend(true, XenForo,
+        {
+            visitor: { user_id: 0 },
+            serverTimeInfo:
+            {
+                now: 1598117358,
+                today: 1598072400,
+                todayDow: 6
+            },
+            _lightBoxUniversal: "0",
+            _enableOverlays: "1",
+            _animationSpeedMultiplier: "1",
+            _overlayConfig:
+            {
+                top: "10%",
+                speed: 200,
+                closeSpeed: 100,
+                mask:
+                {
+                    color: "rgb(255, 255, 255)",
+                    opacity: "0.6",
+                    loadSpeed: 200,
+                    closeSpeed: 100
+                }
+            },
+            _ignoredUsers: [],
+            _loadedScripts: [],
+            _cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+            _csrfToken: "",
+            _csrfRefreshUrl: "login/csrf-token-refresh",
+            _jsVersion: "77c96446",
+            _noRtnProtect: false,
+            _noSocialLogin: false
+        });
+        jQuery.extend(XenForo.phrases,
+        {
+            cancel: "Cancel",
+        
+            a_moment_ago:    "A moment ago",
+            one_minute_ago:  "1 minute ago",
+            x_minutes_ago:   "%minutes% minutes ago",
+            today_at_x:      "Today at %time%",
+            yesterday_at_x:  "Yesterday at %time%",
+            day_x_at_time_y: "%day% at %time%",
+        
+            day0: "Sunday",
+            day1: "Monday",
+            day2: "Tuesday",
+            day3: "Wednesday",
+            day4: "Thursday",
+            day5: "Friday",
+            day6: "Saturday",
+        
+            _months: "January,February,March,April,May,June,July,August,September,October,November,December",
+            _daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+        
+            following_error_occurred: "The following error occurred",
+            server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+            logging_in: "Logging in",
+            click_image_show_full_size_version: "Click this image to show the full-size version.",
+            show_hidden_content_by_x: "Show hidden content by {names}"
+        });
+        
+        // Facebook Javascript SDK
+        XenForo.Facebook.appId = "";
+        XenForo.Facebook.forceInit = false;
+        
+        
+        </script>
+                </div>
+        </div>
+    </div>
+ 
+</body>
+
+</html>
